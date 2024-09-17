@@ -9,7 +9,7 @@ Features
     Encode image data to Base64.
     Decode Base64 data back to image bytes.
 
-Requirements
+## Requirements
 
     Python 3.x
     Pillow (PIL) library
@@ -36,26 +36,23 @@ How to Use
 
     Example command for encryption:
 
-    bash
 
 python image_encryption.py --input_path path/to/input/image.png --output_path path/to/output/encrypted_image.png --option 1
 
 Example command for decryption:
 
-bash
+
 
     python image_encryption.py --input_path path/to/encrypted_image.png --output_path path/to/output/decrypted_image.png --option 2
 
-Example Usage
+### Example Usage
 Encrypting an Image
 
-bash
 
 python image_encryption.py --input_path images/test.png --output_path images/encrypted.png --option 1
 
 Decrypting an Image
 
-bash
 
 python image_encryption.py --input_path images/encrypted.png --output_path images/decrypted.png --option 2
 
