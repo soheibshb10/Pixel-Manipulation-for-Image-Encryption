@@ -1,5 +1,5 @@
 # Image Encryption and Decryption Script
-Overview
+** Overview
 
 This script performs basic encryption and decryption on image files by manipulating pixel values. The encryption process swaps the red and blue channels of each pixel, while the decryption process reverses this operation. Additionally, the script includes functionality to encode image data to Base64 and decode Base64 data back into bytes, though this part is currently used for demonstration purposes.
 Features
